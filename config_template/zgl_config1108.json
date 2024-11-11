@@ -586,7 +586,7 @@
       },
       {
         "rule_set": "geosite-microsoft",
-        "outbound": "Microsoft"
+        "outbound": "💼 MICROSOFT"
       },
       {
         "rule_set": ["geosite-category-games", "geosite-dmm"],
