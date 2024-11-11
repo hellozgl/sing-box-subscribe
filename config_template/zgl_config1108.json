@@ -554,7 +554,7 @@
       },
       {
         "rule_set":["geoip-facebook", "geosite-facebook"],
-        "outbound": "Facebook"
+        "outbound": "ⓕ FACEBOOK"
       },
       {
         "rule_set": "geosite-bilibili",
