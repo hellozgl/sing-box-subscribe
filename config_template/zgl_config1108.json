@@ -538,7 +538,7 @@
       },
       {
         "rule_set": "geosite-openai",
-        "outbound": "OpenAI"
+        "outbound": "OPENAI"
       },
       {
         "rule_set": ["geosite-youtube", "geoip-google", "geosite-google", "geosite-github"],
