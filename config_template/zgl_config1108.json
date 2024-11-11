@@ -514,7 +514,7 @@
       },
       {
         "ip_is_private": true,
-        "outbound": "DIRECT"
+        "outbound": "➡️ DIRECT"
       },
       {
         "rule_set": "zglemby",
