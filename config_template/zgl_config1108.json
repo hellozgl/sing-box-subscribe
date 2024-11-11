@@ -590,7 +590,7 @@
       },
       {
         "rule_set": ["geosite-category-games", "geosite-dmm"],
-        "outbound": "Games"
+        "outbound": "🕹️ GAMES"
       },
       {
         "rule_set": ["geosite-hbo", "geosite-primevideo"],
