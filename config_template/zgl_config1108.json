@@ -30,14 +30,14 @@
         "detour": "DIRECT"
       },
       {
-        "tag": "DNS_BLOCK",
+        "tag": "DNS_⛔️ BLOCK",
         "address": "rcode://success"
       }
     ],
     "rules": [
       {
         "rule_set": "geosite-category-ads-all",
-        "server": "DNS_BLOCK"
+        "server": "DNS_⛔️ BLOCK"
       },
       {
         "outbound": "any",
@@ -364,10 +364,10 @@
       ]
     },
     {
-      "tag":"AdBlock",
+      "tag":"Ad⛔️ BLOCK",
       "type":"selector",
       "outbounds":[
-        "BLOCK",
+        "⛔️ BLOCK",
         "DIRECT"
       ]
     },
@@ -470,8 +470,8 @@
       "type": "dns"
     },
     {
-      "tag": "BLOCK",
-      "type": "block"
+      "tag": "⛔️ BLOCK",
+      "type": "⛔️ BLOCK"
     }
   ],
   "route": {
@@ -493,7 +493,7 @@
       },
       {
         "rule_set": "geosite-category-ads-all",
-        "outbound": "AdBlock"
+        "outbound": "Ad⛔️ BLOCK"
       },
       {
         "clash_mode": "Direct",
@@ -534,7 +534,7 @@
       },
       {
         "rule_set": "zglreject",
-        "outbound": "BLOCK"
+        "outbound": "⛔️ BLOCK"
       },
       {
         "rule_set": "geosite-openai",
