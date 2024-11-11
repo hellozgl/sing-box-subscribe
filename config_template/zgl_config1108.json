@@ -239,7 +239,7 @@
       ]
     },
     {
-      "tag":"Spotify",
+      "tag":"🎧 SPOTIFY",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
@@ -562,7 +562,7 @@
       },
       {
         "rule_set": "geosite-bahamut",
-        "outbound": "Bahamut"
+        "outbound": "🎮 BAHAMUT"
       },
       {
         "rule_set": "geosite-spotify",
