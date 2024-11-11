@@ -269,7 +269,7 @@
       "default": "🇯🇵 日本节点"
     },
     {
-      "tag":"Netflix",
+      "tag":"🍿 NETFLIX",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
