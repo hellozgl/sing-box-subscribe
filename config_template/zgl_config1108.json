@@ -566,7 +566,7 @@
       },
       {
         "rule_set": "geosite-spotify",
-        "outbound": "Spotify"
+        "outbound": "🎧 SPOTIFY"
       },
       {
         "rule_set": "geosite-tiktok",
