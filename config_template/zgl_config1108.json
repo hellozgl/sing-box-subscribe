@@ -530,7 +530,7 @@
       },
       {
         "rule_set": "zgldirect",
-        "outbound": "DIRECT"
+        "outbound": "➡️ DIRECT"
       },
       {
         "rule_set": "zglreject",
