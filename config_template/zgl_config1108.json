@@ -27,7 +27,7 @@
       {
         "tag": "DNS_LOCAL",
         "address": "https://223.5.5.5/dns-query",
-        "detour": "DIRECT"
+        "detour": "➡️ DIRECT"
       },
       {
         "tag": "DNS_BLOCK",
