@@ -166,7 +166,7 @@
       "default": "🇺🇸 美国节点"
     },
     {
-      "tag":"Google",
+      "tag":"🌐 GOOGLE",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
