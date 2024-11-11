@@ -546,7 +546,7 @@
       },
       {
         "rule_set": ["geoip-telegram", "geosite-telegram"],
-        "outbound": "📡 Telegram"
+        "outbound": "📡 TELEGRAM"
       },
       {
         "rule_set": ["geoip-twitter", "geosite-twitter"],
