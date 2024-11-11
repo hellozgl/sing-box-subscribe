@@ -521,20 +521,20 @@
         "outbound": "📽 EMBY"
       },
       {
-        "rule_set": "",
+        "rule_set": "zglauto",
+        "outbound": "🔰 节点选择"
+      },
+      {
+        "rule_set": "zglmanual",
         "outbound": "OpenAI"
       },
       {
-        "rule_set": "",
+        "rule_set": "zgldirect",
         "outbound": "OpenAI"
       },
       {
-        "rule_set": "",
-        "outbound": "OpenAI"
-      },
-      {
-        "rule_set": "",
-        "outbound": "OpenAI"
+        "rule_set": "zglreject",
+        "outbound": ""
       },
       {
         "rule_set": "geosite-openai",
