@@ -254,7 +254,7 @@
       "default": "🇺🇸 美国节点"
     },
     {
-      "tag":"TikTok",
+      "tag":"🎙 TIKTOK",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
