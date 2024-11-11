@@ -180,7 +180,7 @@
       ]
     },
     {
-      "tag":"📡 Telegram",
+      "tag":"📡 TELEGRAM",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "tag":"Twitter",
+      "tag":"🤡 TWITTER",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
@@ -550,7 +550,7 @@
       },
       {
         "rule_set": ["geoip-twitter", "geosite-twitter"],
-        "outbound": "Twitter"
+        "outbound": "🤡 TWITTER"
       },
       {
         "rule_set":["geoip-facebook", "geosite-facebook"],
