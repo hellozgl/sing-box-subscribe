@@ -570,7 +570,7 @@
       },
       {
         "rule_set": "geosite-tiktok",
-        "outbound": "TikTok"
+        "outbound": "🎙 TIKTOK"
       },
       {
         "rule_set": ["geoip-netflix", "geosite-netflix"],
