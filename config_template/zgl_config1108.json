@@ -578,7 +578,7 @@
       },
       {
         "rule_set": "geosite-disney",
-        "outbound": "Disney+"
+        "outbound": "🎠 DISNEY+"
       },
       {
         "rule_set": ["geoip-apple", "geosite-apple", "geosite-amazon"],
