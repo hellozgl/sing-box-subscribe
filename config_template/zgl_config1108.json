@@ -526,15 +526,15 @@
       },
       {
         "rule_set": "zglmanual",
-        "outbound": "OpenAI"
+        "outbound": "🌀 手动切换"
       },
       {
         "rule_set": "zgldirect",
-        "outbound": "OpenAI"
+        "outbound": "DIRECT"
       },
       {
         "rule_set": "zglreject",
-        "outbound": ""
+        "outbound": "BLOCK"
       },
       {
         "rule_set": "geosite-openai",
