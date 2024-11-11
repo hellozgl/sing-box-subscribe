@@ -30,14 +30,14 @@
         "detour": "DIRECT"
       },
       {
-        "tag": "DNS_⛔️ BLOCK",
+        "tag": "DNS_BLOCK",
         "address": "rcode://success"
       }
     ],
     "rules": [
       {
         "rule_set": "geosite-category-ads-all",
-        "server": "DNS_⛔️ BLOCK"
+        "server": "DNS_BLOCK"
       },
       {
         "outbound": "any",
@@ -364,7 +364,7 @@
       ]
     },
     {
-      "tag":"Ad⛔️ BLOCK",
+      "tag":"AdBlock",
       "type":"selector",
       "outbounds":[
         "⛔️ BLOCK",
@@ -471,7 +471,7 @@
     },
     {
       "tag": "⛔️ BLOCK",
-      "type": "⛔️ BLOCK"
+      "type": "block"
     }
   ],
   "route": {
@@ -493,7 +493,7 @@
       },
       {
         "rule_set": "geosite-category-ads-all",
-        "outbound": "Ad⛔️ BLOCK"
+        "outbound": "AdBlock"
       },
       {
         "clash_mode": "Direct",
