@@ -151,7 +151,7 @@
       "default": "DIRECT"
     },
     {
-      "tag":"OpenAI",
+      "tag":"OPENAI",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
