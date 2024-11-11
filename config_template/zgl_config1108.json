@@ -594,7 +594,7 @@
       },
       {
         "rule_set": ["geosite-hbo", "geosite-primevideo"],
-        "outbound": "Streaming"
+        "outbound": "🎬 STREAMING"
       },
       {
         "rule_set": "geosite-geolocation-!cn",
