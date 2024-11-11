@@ -147,7 +147,8 @@
         "♻️ 自动选择",
         "{all}",
         "DIRECT"
-      ]
+      ],
+      "default": "DIRECT"
     },
     {
       "tag":"OpenAI",
