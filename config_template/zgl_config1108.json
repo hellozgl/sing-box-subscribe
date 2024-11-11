@@ -574,7 +574,7 @@
       },
       {
         "rule_set": ["geoip-netflix", "geosite-netflix"],
-        "outbound": "Netflix"
+        "outbound": "🍿 NETFLIX"
       },
       {
         "rule_set": "geosite-disney",
