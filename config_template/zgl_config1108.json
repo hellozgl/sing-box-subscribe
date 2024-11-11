@@ -422,17 +422,6 @@
       ]
     },
     {
-      "tag":"🇮🇳 印度节点",
-      "type":"selector",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🇮🇳|IN|in|印度|印|India"]},
-        {"action":"exclude","keywords":["限速"]}
-      ]
-    },
-    {
       "tag":"🐷 懒人节点",
       "type":"selector",
       "outbounds":[
