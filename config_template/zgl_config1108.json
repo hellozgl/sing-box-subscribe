@@ -297,7 +297,7 @@
       ]
     },
     {
-      "tag":"Apple",
+      "tag":" APPLE",
       "type":"selector",
       "outbounds":[
         "DIRECT",
@@ -312,7 +312,7 @@
       ]
     },
     {
-      "tag":"Microsoft",
+      "tag":"💼 MICROSOFT",
       "type":"selector",
       "outbounds":[
         "DIRECT",
@@ -582,7 +582,7 @@
       },
       {
         "rule_set": ["geoip-apple", "geosite-apple", "geosite-amazon"],
-        "outbound": "Apple"
+        "outbound": " APPLE"
       },
       {
         "rule_set": "geosite-microsoft",
