@@ -97,7 +97,7 @@
       "tag":"✅ 节点选择",
       "type":"selector",
       "outbounds":[
-        "♻️ 自动选择",
+        "⚡ 自动选择",
         "{all}",
         "➡️ DIRECT"
       ]
