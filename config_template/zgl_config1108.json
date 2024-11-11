@@ -428,7 +428,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇮🇳|IN|印度|印|India"]},
+        {"action":"include","keywords":["🇮🇳|IN|印度|印|India"]}
       ]
     },
     {
