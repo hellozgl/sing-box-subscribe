@@ -222,7 +222,7 @@
       ]
     },
     {
-      "tag":"BiliBili",
+      "tag":"📺 BLIIBLII",
       "type":"selector",
       "outbounds":[
         "DIRECT",
@@ -558,7 +558,7 @@
       },
       {
         "rule_set": "geosite-bilibili",
-        "outbound": "BiliBili"
+        "outbound": "📺 BLIIBLII"
       },
       {
         "rule_set": "geosite-bahamut",
