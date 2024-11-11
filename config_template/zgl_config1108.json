@@ -116,7 +116,7 @@
       "tolerance": 50
     },
     {
-      "tag":"📌  手动切换",
+      "tag":"📌 手动切换",
       "type":"selector",
       "outbounds":[
         "♻️ 自动选择",
@@ -456,7 +456,7 @@
       "type":"selector",
       "outbounds":[
         "✅ 节点选择",
-        "📌  手动切换",
+        "📌 手动切换",
         "{all}",
         "DIRECT"
       ]
@@ -526,7 +526,7 @@
       },
       {
         "rule_set": "zglmanual",
-        "outbound": "📌  手动切换"
+        "outbound": "📌 手动切换"
       },
       {
         "rule_set": "zgldirect",
