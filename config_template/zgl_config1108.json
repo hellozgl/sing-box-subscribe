@@ -103,7 +103,7 @@
       ]
     },
     {
-      "tag":"♻️ 自动选择",
+      "tag":"⚡ 自动选择",
       "type":"urltest",
       "outbounds":[
         "{all}"
@@ -119,7 +119,7 @@
       "tag":"📌 手动切换",
       "type":"selector",
       "outbounds":[
-        "♻️ 自动选择",
+        "⚡ 自动选择",
         "{all}",
         "➡️ DIRECT"
       ]
