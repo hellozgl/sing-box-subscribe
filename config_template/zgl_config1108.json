@@ -180,7 +180,7 @@
       ]
     },
     {
-      "tag":"Telegram",
+      "tag":"📡 Telegram",
       "type":"selector",
       "outbounds":[
         "🇭🇰 香港节点",
