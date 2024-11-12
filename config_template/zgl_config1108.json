@@ -414,8 +414,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇮🇳|IN|in|印度|印|India"]},
-        {"action":"exclude","keywords":["限速"]}
+        {"action":"include","keywords":["🇮🇳|IN|in|印度|印|India"]}
       ]
     },
     {
