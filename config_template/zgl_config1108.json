@@ -432,15 +432,6 @@
         {"action":"exclude","keywords":["限速"]}
       ]
     },
-    {
-      "tag":"🐷 懒人节点",
-      "type":"selector",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["懒"]}
-      ]
     },
     {
       "tag":"🕸 其他节点",
