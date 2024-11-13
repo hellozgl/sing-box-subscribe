@@ -22,7 +22,7 @@
       {
         "tag": "DNS_PROXY",
         "address": "tls://8.8.8.8",
-        "detour": "🌏 GLOBAL"
+        "detour": "➡️ DIRECT"
       },
       {
         "tag": "DNS_LOCAL",
