@@ -444,7 +444,8 @@
       "tag":"🐷 自建节点",
       "type":"selector",
       "outbounds":[
-        "🐽 proxy"
+        "🐽 proxy",
+        "🐽 proxy2"
       ]
     },
     {
