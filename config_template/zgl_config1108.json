@@ -22,7 +22,7 @@
       {
         "tag": "DNS_PROXY",
         "address": "tls://8.8.8.8",
-        "detour": "Proxy"
+        "detour": "🇹🇼 台湾节点"
       },
       {
         "tag": "DNS_LOCAL",
