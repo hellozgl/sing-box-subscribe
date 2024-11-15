@@ -21,7 +21,7 @@
     "servers": [
       {
         "tag": "DNS_PROXY",
-        "address": "tls://8.8.8.8",
+        "address": "https://dns.google/dns-query8",
         "address_resolver": "DNS_LOCAL",
         "address_strategy": "ipv4_only",
         "strategy": "ipv4_only",
