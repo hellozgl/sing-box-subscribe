@@ -441,6 +441,16 @@
       ]
     },
     {
+      "tag":"🕸 自建节点",
+      "type":"selector",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美|🇮🇳|IN|in|印度｜印"]}
+      ]
+    },
+    {
       "tag": "➡️ DIRECT",
       "type": "direct"
     },
@@ -451,6 +461,22 @@
     {
       "tag": "⛔️ BLOCK",
       "type": "block"
+    },
+    {
+      "server": "pjck.34gpg.shop",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "path": "/fe2e8df9-e5dc-4984-a028-9b68c6cfb006",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "fe2e8df9-e5dc-4984-a028-9b68c6cfb006",
+      "tag": "🐽 proxy",
+      "type": "vless"
     }
   ],
   "route": {
