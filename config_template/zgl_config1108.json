@@ -474,6 +474,22 @@
       "uuid": "fe2e8df9-e5dc-4984-a028-9b68c6cfb006",
       "tag": "🐽 proxy",
       "type": "vless"
+    },
+    {
+      "server": "joqt.0owap.xyz",
+      "server_port": 443,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "path": "/987cf14b-e66b-4041-9e4b-dd486478b8fb",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "987cf14b-e66b-4041-9e4b-dd486478b8fb",
+      "tag": "proxy",
+      "type": "vless"
     }
   ],
   "route": {
