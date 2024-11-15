@@ -25,7 +25,7 @@
         "address_resolver": "DNS_LOCAL",
         "address_strategy": "ipv4_only",
         "strategy": "ipv4_only",
-        "detour": "✅ 节点选择"
+        "detour": "🇭🇰 香港节点"
       },
       {
         "tag": "DNS_LOCAL",
@@ -242,7 +242,7 @@
       "type":"selector",
       "outbounds":[
         "🇹🇼 台湾节点",
-        "🇭🇰 香港节点"
+        "✅ 节点选择"
       ]
     },
     {
