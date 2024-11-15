@@ -462,10 +462,8 @@
       "tag":"🐷 自建节点",
       "type":"selector",
       "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🐽"]}
+        "🐽 proxy",
+        "🐽 proxy2"
       ]
     },
     {
