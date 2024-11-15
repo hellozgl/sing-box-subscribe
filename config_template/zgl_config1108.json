@@ -151,6 +151,7 @@
       "type":"selector",
       "outbounds":[
         "⚡ 自动选择",
+        "🐷 自建节点",
         "{all}",
         "➡️ DIRECT"
       ],
