@@ -21,11 +21,8 @@
     "servers": [
       {
         "tag": "DNS_PROXY",
-        "address": "https://dns.google/dns-query8",
-        "address_resolver": "DNS_LOCAL",
-        "address_strategy": "ipv4_only",
-        "strategy": "ipv4_only",
-        "detour": "🇭🇰 香港节点"
+        "address": "tls://8.8.8.8",
+        "detour": "Proxy"
       },
       {
         "tag": "DNS_LOCAL",
