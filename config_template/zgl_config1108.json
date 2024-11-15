@@ -64,7 +64,7 @@
         "server": "DNS_PROXY"
       }
     ],
-    "final": "DNS_LOCAL",
+    "final": "DNS_PROXY",
     "strategy": "ipv4_only"
   },
   "inbounds": [
