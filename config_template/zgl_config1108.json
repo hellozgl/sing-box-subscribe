@@ -468,7 +468,7 @@
       "type": "direct"
     },
     {
-      "tag": "🚀 DNS-OUT",
+      "tag": "🚀 DNS_OUT",
       "type": "dns"
     },
     {
