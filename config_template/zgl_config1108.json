@@ -115,7 +115,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "360m",
-      "idle_timeout": "720m"
+      "idle_timeout": "720m",
       "tolerance": 50
     },
     {
