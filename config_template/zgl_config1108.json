@@ -523,7 +523,7 @@
             "protocol": "dns"
           }
         ],
-        "outbound": "🚀 DNS-OUT"
+        "outbound": "🚀 DNS_OUT"
       },
       {
         "rule_set": "geosite-category-ads-all",
