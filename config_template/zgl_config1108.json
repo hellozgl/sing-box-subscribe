@@ -474,7 +474,7 @@
       "tag":"🐷 自建节点",
       "type":"selector",
       "outbounds":[
-        "🐽 proxy",
+        "🐽 proxy1",
         "🐽 proxy2"
       ]
     },
@@ -491,36 +491,42 @@
       "type": "block"
     },
     {
+      "tag": "🐽 proxy1",
+      "type": "vless",
       "server": "pjck.34gpg.shop",
       "server_port": 443,
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "path": "/fe2e8df9-e5dc-4984-a028-9b68c6cfb006",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
       "uuid": "fe2e8df9-e5dc-4984-a028-9b68c6cfb006",
-      "tag": "🐽 proxy",
-      "type": "vless"
+      "tls": {
+        "enabled": true,
+        "server_name": "pjck.34gpg.shop",
+        "insecure": false
+      },
+      "udp_fragment": true,
+      "transport": {
+        "type": "ws",
+        "headers": {},
+        "path": "/fe2e8df9-e5dc-4984-a028-9b68c6cfb006"
+      },
+      "tcp_fast_open": true
     },
     {
+      "tag": "🐽 proxy2",
+      "type": "vless",
       "server": "joqt.0owap.xyz",
       "server_port": 443,
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "path": "/987cf14b-e66b-4041-9e4b-dd486478b8fb",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
       "uuid": "987cf14b-e66b-4041-9e4b-dd486478b8fb",
-      "tag": "🐽 proxy2",
-      "type": "vless"
+      "tls": {
+        "enabled": true,
+        "server_name": "joqt.0owap.xyz",
+        "insecure": false
+      },
+      "udp_fragment": true,
+      "transport": {
+        "type": "ws",
+        "headers": {},
+        "path": "/987cf14b-e66b-4041-9e4b-dd486478b8fb"
+      },
+      "tcp_fast_open": true
     }
   ],
   "route": {
