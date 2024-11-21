@@ -134,6 +134,7 @@
       "tag":"📌 手动切换",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "⚡ 自动选择",
         "🐷 自建节点",
         "{all}",
@@ -144,6 +145,7 @@
       "tag":"🌏 GLOBAL",
       "type":"selector",
       "outbounds":[ 
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -160,6 +162,7 @@
       "tag":"📽 EMBY",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "⚡ 自动选择",
         "🐷 自建节点",
         "{all}",
@@ -171,6 +174,7 @@
       "tag":"🤖 OPENAI",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -202,6 +206,7 @@
       "tag":"📡 TELEGRAM",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -216,6 +221,7 @@
       "tag":"𝕏 TWITTER",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -230,6 +236,7 @@
       "tag":"ⓕ FACEBOOK",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -261,6 +268,7 @@
       "tag":"🎧 SPOTIFY",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -276,6 +284,7 @@
       "tag":"🎙 TIKTOK",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -291,6 +300,7 @@
       "tag":"🍿 NETFLIX",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -305,6 +315,7 @@
       "tag":"🎠 DISNEY+",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -320,6 +331,7 @@
       "type":"selector",
       "outbounds":[
         "➡️ DIRECT",
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -335,6 +347,7 @@
       "type":"selector",
       "outbounds":[
         "➡️ DIRECT",
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -351,6 +364,7 @@
       "type":"selector",
       "outbounds":[
         "➡️ DIRECT",
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
@@ -365,6 +379,7 @@
       "tag":"🎬 STREAMING",
       "type":"selector",
       "outbounds":[
+        "✅ 节点选择",
         "🇭🇰 香港节点",
         "🇹🇼 台湾节点",
         "🇸🇬 狮城节点",
