@@ -29,15 +29,15 @@
       { "rule_set": [ "proxy" ], "rewrite_ttl": 1, "server": "dns_proxy" },
       { "rule_set": [ "cn" ], "server": "dns_local" }
     ],
-    "final": "dns_local",
-    "strategy": "ipv4_only",
+    "final": "🚀 DNS_CF",
+    "strategy": "prefer_ipv4",
     "independent_cache": true,
     "lazy_cache": true,
     "reverse_mapping": true,
     "mapping_override": true
   },
   "inbounds": [
-    { "type": "tun", "tag": "tun-in", "inet4_address": "172.19.0.1/30" , "mtu": 9000, "auto_route": true, "strict_route": false, "inet4_route_address": ["0.0.0.0/1", "128.0.0.0/1" ], "inet4_route_exclude_address": ["192.168.0.0/16" ], "sniff": true, "sniff_override_destination": false, "endpoint_independent_nat": false, "stack": "system", "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2080 } } }
+    { "tag": "🚇 TUN-IN", "type": "tun", "address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": true, "sniff": true, "endpoint_independent_nat": false, "stack": "system", "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2080 } } }
   ],
   "outbounds": [
     { "tag": "🔰 节点选择", "type": "selector", "outbounds": [ "♻️ 自动选择", "🇭🇰 香港自动", "🇨🇳 台湾自动", "🇯🇵 日本自动", "🇮🇳 印度自动", "🇸🇬 狮城自动", "🇺🇸 美国自动", "懒人节点", "其他节点", "🌀 手动切换", "🎯 全球直连", "🐷 自建节点" ] },
