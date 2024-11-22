@@ -37,7 +37,8 @@
     "mapping_override": true
   },
   "inbounds": [
-    { "tag": "🚇 TUN-IN", "type": "tun", "address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": true, "sniff": true, "endpoint_independent_nat": false, "stack": "system", "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2080 } } }
+    { "tag": "🚇 TUN-IN", "type": "tun", "address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": true, "sniff": true, "endpoint_independent_nat": false, "stack": "system", "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2080 } } },
+    { "tag": "🪢 MIXED-IN", "type": "mixed", "listen": "127.0.0.1", "listen_port": 2080, "sniff": true, "users": [] }
   ],
   "outbounds": [
     { "tag": "🔰 节点选择", "type": "selector", "outbounds": [ "♻️ 自动选择", "🇭🇰 香港自动", "🇨🇳 台湾自动", "🇯🇵 日本自动", "🇮🇳 印度自动", "🇸🇬 狮城自动", "🇺🇸 美国自动", "懒人节点", "其他节点", "🌀 手动切换", "🎯 全球直连", "🐷 自建节点" ] },
