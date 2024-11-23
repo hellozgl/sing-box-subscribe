@@ -19,15 +19,12 @@
       { "tag": "🚀 DNS_BLOCK", "address": "rcode://success" }
     ],
     "rules": [
-      { "outbound": "any", "server": "dns_local", "disable_cache": true },
-      { "domain_suffix": [ "ghproxy.com", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "server": "dns_local" },
-      { "clash_mode": "Direct", "server": "dns_local" },
-      { "clash_mode": "Global", "server": "dns_proxy" },
-      { "rule_set": [ "ads" ], "server": "dns_block", "disable_cache": true, "rewrite_ttl": 0 },
-      { "rule_set": [ "geosite-geolocation-cn" ], "server": "dns_local" },
-      { "type": "logical", "mode": "and", "rules": [ { "rule_set": "geosite-geolocation-!cn", "invert": true }, { "rule_set": "geoip-cn" } ], "server": "dns_proxy", "client_subnet": "114.114.114.114/24" },
-      { "rule_set": [ "proxy" ], "rewrite_ttl": 1, "server": "dns_proxy" },
-      { "rule_set": [ "cn" ], "server": "dns_local" }
+      { "rule_set": "geosite-category-ads-all", "server": "🚀 DNS_BLOCK" },
+      { "outbound": "any", "server": "🚀 DNS_LOCAL", "disable_cache": true },
+      { "rule_set": "geosite-cn", "server": "🚀 DNS_LOCAL" },
+      { "clash_mode": "Direct", "server": "🚀 DNS_LOCAL" },
+      { "clash_mode": "Global", "server": "🚀 DNS_CF" },
+      { "rule_set": "geosite-geolocation-!cn", "server": "🚀 DNS_CF" }
     ],
     "final": "🚀 DNS_CF",
     "strategy": "prefer_ipv4",
