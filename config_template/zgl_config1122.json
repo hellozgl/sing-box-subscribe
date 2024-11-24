@@ -66,7 +66,7 @@
     { "tag":"🇯🇵 日本节点", "type":"selector", "outbounds":[ "{all}" ], "filter":[ {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]} ] },
     { "tag":"🇺🇸 美国节点", "type":"selector", "outbounds":[ "{all}" ], "filter":[ {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]} ] },
     { "tag":"🇮🇳 印度节点", "type":"selector", "outbounds":[ "{all}" ], "filter":[ {"action":"include","keywords":["🇮🇳|IN|in|印度|印|India"]} ] },
-    { "tag":"🕸 其他节点", "type":"selector", "outbounds":[ "{all}" ], "filter":[ {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美|🇮🇳|IN|in|印度｜印"]} ] },
+    { "tag":"🕸 其他节点", "type":"selector", "outbounds":[ "{all}" ], "filter":[ {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美|🇮🇳|IN|in|印度｜印｜机场｜频道"]} ] },
     { "tag":"🐟 漏网之鱼", "type":"selector", "outbounds":[ "✅ 节点选择", "📌 手动切换", "{all}", "➡️ DIRECT" ] },
     { "tag":"🐷 自建节点", "type":"selector", "outbounds":[ "🐽 proxy1", "🐽 proxy2" ] },
     { "tag": "➡️ DIRECT", "type": "direct" },
