@@ -22,7 +22,8 @@
       {
         "tag": "🚀 DNS_GG",
         "address": "tls://8.8.8.8",
-        "detour": "🇹🇼 台湾节点"
+        "strategy": "prefer_ipv4",
+        "detour": "➡️ DIRECT" 
       },
       {
         "tag": "🚀 DNS_CF",
