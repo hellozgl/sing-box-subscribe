@@ -61,14 +61,14 @@
       },
       {
         "clash_mode": "Global",
-        "server": "🚀 DNS_GG"
+        "server": "🚀 DNS_CF"
       },
       {
         "rule_set": "geosite-geolocation-!cn",
-        "server": "🚀 DNS_GG"
+        "server": "🚀 DNS_CF"
       }
     ],
-    "final": "🚀 DNS_GG",
+    "final": "🚀 DNS_CF",
     "strategy": "prefer_ipv4"
   },
   "inbounds": [
