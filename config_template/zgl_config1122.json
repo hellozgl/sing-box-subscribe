@@ -18,8 +18,8 @@
   {
     "servers": 
     [
-      { "tag": "🚀 DNS_GG", "address": "tls://8.8.8.8", "strategy": "prefer_ipv4", "detour": "➡️ DIRECT" },
-      { "tag": "🚀 DNS_CF", "address": "https://1.1.1.1/dns-query", "strategy": "prefer_ipv4", "detour": "➡️ DIRECT" },
+      { "tag": "🚀 DNS_GG", "address": "tls://8.8.8.8", "strategy": "prefer_ipv4", "detour": "✅ 节点选择" },
+      { "tag": "🚀 DNS_CF", "address": "https://1.1.1.1/dns-query", "strategy": "prefer_ipv4", "detour": "✅ 节点选择" },
       { "tag": "🚀 DNS_LOCAL", "address": "https://223.5.5.5/dns-query", "detour": "➡️ DIRECT" },
       { "tag": "🚀 DNS_BLOCK", "address": "rcode://success" }
     ],
