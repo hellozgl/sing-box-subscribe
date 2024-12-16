@@ -85,7 +85,7 @@
   "route": 
   {
     "auto_detect_interface": true,
-    "final": "🐟 漏网之鱼",
+    "final": "⚡ 自动选择",
     "rules": 
     [
       { "type": "logical", "mode": "or", "rules": [ { "port": 53 }, { "protocol": "dns" } ], "outbound": "🚀 DNS_OUT" },
