@@ -91,7 +91,7 @@
       { "type": "logical", "mode": "or", "rules": [ { "port": 53 }, { "protocol": "dns" } ], "outbound": "🚀 DNS_OUT" },
       { "rule_set": "geosite-category-ads-all", "outbound": "🛍️ ADBLOCK" },
       { "clash_mode": "Direct", "outbound": "➡️ DIRECT" },
-      { "clash_mode": "Global", "outbound": "🌏 GLOBAL" },
+      { "clash_mode": "Global", "outbound": "GLOBAL" },
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one" ], "outbound": "➡️ DIRECT" },
       { "ip_is_private": true, "outbound": "➡️ DIRECT" },
       { "rule_set": "zglemby", "outbound": "📽 EMBY" },
