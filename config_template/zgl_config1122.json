@@ -40,7 +40,7 @@
   "inbounds": 
   [
     { "tag": "🚇 TUN-IN", "type": "tun", "address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": true, "sniff": true, "endpoint_independent_nat": false, "stack": "system", "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2080 } } },
-    { "tag": "🪢 MIXED-IN", "type": "mixed", "listen": "127.0.0.1", "listen_port": 2080, "sniff": true, "users": [] }
+    { "tag": "🧬 MIXED-IN", "type": "mixed", "listen": "127.0.0.1", "listen_port": 2080, "sniff": true, "users": [] }
   ],
 
   "outbounds": 
@@ -64,7 +64,7 @@
     { "tag": "💼 MICROSOFT", "type":"selector", "outbounds":[ "➡️ DIRECT", "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🐷 自建节点" ], "default": "➡️ DIRECT" },
     { "tag": "🕹️ GAMES", "type":"selector", "outbounds":[ "➡️ DIRECT", "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🐷 自建节点" ] },
     { "tag": "🎬 STREAMING", "type":"selector", "outbounds":[ "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🐷 自建节点" ] },
-    { "tag": "🛍️ ADBLOCK", "type":"selector", "outbounds":[ "⛔️ BLOCK", "➡️ DIRECT" ] },
+    { "tag": "🚫 ADBLOCK", "type":"selector", "outbounds":[ "⛔️ BLOCK", "➡️ DIRECT" ] },
     { "tag": "🇨🇳 CHINA", "type":"selector", "outbounds":[ "➡️ DIRECT", "🎯 节点选择" ] },
     { "tag": "🇭🇰 香港节点", "type":"selector", "outbounds":[ "{all}" ], "filter":[ {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]} ] },
     { "tag": "🇹🇼 台湾节点", "type":"selector", "outbounds":[ "{all}" ], "filter":[ {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]} ] },
@@ -89,7 +89,7 @@
     "rules": 
     [
       { "type": "logical", "mode": "or", "rules": [ { "port": 53 }, { "protocol": "dns" } ], "outbound": "🚀 DNS_OUT" },
-      { "rule_set": "geosite-category-ads-all", "outbound": "🛍️ ADBLOCK" },
+      { "rule_set": "geosite-category-ads-all", "outbound": "🚫 ADBLOCK" },
       { "clash_mode": "Direct", "outbound": "➡️ DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one" ], "outbound": "➡️ DIRECT" },
