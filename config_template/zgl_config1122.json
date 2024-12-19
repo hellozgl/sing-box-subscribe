@@ -89,6 +89,8 @@
     "rules": 
     [
       { "type": "logical", "mode": "or", "rules": [ { "port": 53 }, { "protocol": "dns" } ], "outbound": "🚀 DNS_OUT" },
+      { "wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
+      { "wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       { "rule_set": "geosite-category-ads-all", "outbound": "🚫 ADBLOCK" },
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
@@ -98,8 +100,6 @@
       { "rule_set": "zglauto", "outbound": "🎯 节点选择" },
       { "rule_set": "zglmanual", "outbound": "📌 手动切换" },
       { "rule_set": "zgldirect", "outbound": "DIRECT" },
-      { "wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
-      { "wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       { "rule_set": "zglreject", "outbound": "⛔️ BLOCK" },
       { "rule_set": "geosite-openai", "outbound": "🤖 OPENAI" },
       { "rule_set": [ "geosite-youtube", "geoip-google", "geosite-google", "geosite-github" ], "outbound": "🌐 GOOGLE" },
