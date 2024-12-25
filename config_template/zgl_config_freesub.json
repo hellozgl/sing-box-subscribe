@@ -35,7 +35,7 @@
     { "tag": "🚆 MIXED-IN", "type": "mixed", "listen": "127.0.0.1", "listen_port": 2080, "sniff": true, "users": [] }
   ],
   "outbounds": [
-    { "tag": "🎯 节点选择", "type": "selector", "outbounds": [ "⚡ 自动测速", "📌 手动切换","🐷 自建节点", "DIRECT" ] },
+    { "tag": "🎯 节点选择", "type": "selector", "outbounds": [ "⚡ 自动测速", "📌 手动切换", "🐷 自建节点", "DIRECT" ] },
     { "tag": "⚡ 自动测速", "type": "urltest", "outbounds": [ "{all}", "🐷 自建节点" ], "url": "http://www.gstatic.com/generate_204", "interval": "360m", "idle_timeout": "720m", "tolerance": 50 },
     { "tag": "📌 手动切换", "type": "selector", "outbounds": [ "⚡ 自动测速", "🐷 自建节点", "{all}", "DIRECT" ], "default": "⚡ 自动测速" },
     { "tag": "🎁 EMBY", "type": "selector", "outbounds": [ "🎯 节点选择", "📌 手动切换", "🐷 自建节点", "DIRECT" ], "default": "DIRECT" },
