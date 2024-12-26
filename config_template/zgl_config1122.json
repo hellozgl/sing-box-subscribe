@@ -13,8 +13,8 @@
   },
   "dns": {
     "servers": [
-      { "tag": "🚀 DNS_GG", "address": "tls://8.8.8.8", "strategy": "prefer_ipv4", "detour": "🎯 节点选择" },
-      { "tag": "🚀 DNS_CF", "address": "https://1.1.1.1/dns-query", "strategy": "prefer_ipv4", "detour": "🎯 节点选择" },
+      { "tag": "🚀 DNS_GG", "address": "tls://8.8.8.8", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
+      { "tag": "🚀 DNS_CF", "address": "https://1.1.1.1/dns-query", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
       { "tag": "🚀 DNS_LOCAL", "address": "https://223.5.5.5/dns-query", "detour": "DIRECT" },
       { "tag": "🚀 DNS_BLOCK", "address": "rcode://success" }
     ],
@@ -28,7 +28,7 @@
       { "rule_set": "geosite-geolocation-!cn", "server": "🚀 DNS_GG" }
     ],
     "final": "🚀 DNS_GG",
-    "strategy": "prefer_ipv4"
+    "strategy": "ipv4_only"
   },
   "inbounds": [
     { "tag": "🚇 TUN-IN", "type": "tun", "address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": true, "sniff": true, "endpoint_independent_nat": false, "stack": "system", "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2080 } } },
