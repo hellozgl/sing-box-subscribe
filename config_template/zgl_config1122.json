@@ -76,8 +76,6 @@
     "final": "🐟 漏网之鱼",
     "rules": [
       { "type": "logical", "mode": "or", "rules": [ { "port": 53 }, { "protocol": "dns" } ], "outbound": "🚀 DNS_OUT" },
-      { "wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
-      { "wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       { "rule_set": "geosite-category-ads-all", "outbound": "🚫 ADBLOCK" },
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
