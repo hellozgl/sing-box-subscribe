@@ -13,25 +13,25 @@
   },
   "dns": {
     "servers": [
-      { "tag": "🚀 DNS_GG", "address": "tls://8.8.8.8", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
-      { "tag": "🚀 DNS_CF", "address": "https://1.1.1.1/dns-query", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
-      { "tag": "🚀 DNS_LOCAL", "address": "https://223.5.5.5/dns-query", "detour": "DIRECT" },
-      { "tag": "🚀 DNS_BLOCK", "address": "rcode://success" }
+      { "tag": "🧭 DNS_GG", "address": "tls://8.8.8.8", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
+      { "tag": "🧭 DNS_CF", "address": "https://1.1.1.1/dns-query", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
+      { "tag": "🧭 DNS_LOCAL", "address": "https://223.5.5.5/dns-query", "detour": "DIRECT" },
+      { "tag": "🧭 DNS_BLOCK", "address": "rcode://success" }
     ],
     "rules": [
-      { "domain_suffix": [ "ghproxy.cn", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "server": "🚀 DNS_LOCAL" },
-      { "rule_set": "geosite-category-ads-all", "server": "🚀 DNS_BLOCK" },
-      { "outbound": "any", "server": "🚀 DNS_LOCAL", "disable_cache": true },
-      { "clash_mode": "Direct", "server": "🚀 DNS_LOCAL" },
-      { "clash_mode": "Global", "server": "🚀 DNS_GG" },
-      { "rule_set": "geosite-cn", "server": "🚀 DNS_LOCAL" },
-      { "rule_set": "geosite-geolocation-!cn", "server": "🚀 DNS_GG" }
+      { "domain_suffix": [ "ghproxy.cn", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "server": "🧭 DNS_LOCAL" },
+      { "rule_set": "geosite-category-ads-all", "server": "🧭 DNS_BLOCK" },
+      { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
+      { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
+      { "clash_mode": "Global", "server": "🧭 DNS_GG" },
+      { "rule_set": "geosite-cn", "server": "🧭 DNS_LOCAL" },
+      { "rule_set": "geosite-geolocation-!cn", "server": "🧭 DNS_GG" }
     ],
-    "final": "🚀 DNS_GG",
+    "final": "🧭 DNS_GG",
     "strategy": "ipv4_only"
   },
   "inbounds": [
-    { "tag": "💡 TPROXY-IN", "type": "tproxy", "listen": "0.0.0.0", "listen_port": 7895, "sniff": true, "sniff_override_destination": false },
+    { "tag": "🚀 TPROXY-IN", "type": "tproxy", "listen": "0.0.0.0", "listen_port": 7895, "sniff": true, "sniff_override_destination": false },
     { "tag": "🚆 MIXED-IN", "type": "mixed", "listen": "127.0.0.1", "listen_port": 2080, "sniff": true, "users": [] }
   ],
   "outbounds": [
@@ -64,7 +64,7 @@
     { "tag": "🐟 漏网之鱼", "type":"selector", "outbounds": [ "🎯 节点选择", "📌 手动切换", "⚡ 自动测速", "🐷 自建节点", "{all}", "DIRECT" ], "filter":[ {"action":"exclude","keywords":["剩余|到期|文档|推荐"]} ], "default": "🎯 节点选择" },
     { "tag": "🐷 自建节点", "type":"selector", "outbounds": [ "🐽 proxy1", "🐽 proxy2" ] },
     { "tag": "DIRECT", "type": "direct" },
-    { "tag": "🚀 DNS_OUT", "type": "dns" },
+    { "tag": "🧭 DNS_OUT", "type": "dns" },
     { "tag": "⛔️ BLOCK", "type": "block" },
     { "tag": "GLOBAL", "type": "selector", "outbounds": [ "🐷 自建节点", "DIRECT", "{all}" ], "filter":[ {"action":"exclude","keywords":["剩余|到期|文档|推荐|机场|通知"]} ] }, 
     { "tag": "🐽 proxy1", "type": "vless", "server": "pjck.34gpg.shop", "server_port": 443, "uuid": "fe2e8df9-e5dc-4984-a028-9b68c6cfb006", "tls": { "enabled": true, "server_name": "pjck.34gpg.shop", "insecure": false }, "udp_fragment": true, "transport": { "type": "ws", "headers": {}, "path": "/fe2e8df9-e5dc-4984-a028-9b68c6cfb006" }, "tcp_fast_open": true },
@@ -74,7 +74,7 @@
     "auto_detect_interface": true,
     "final": "🐟 漏网之鱼",
     "rules": [
-      { "type": "logical", "mode": "or", "rules": [ { "port": 53 }, { "protocol": "dns" } ], "outbound": "🚀 DNS_OUT" },
+      { "type": "logical", "mode": "or", "rules": [ { "port": 53 }, { "protocol": "dns" } ], "outbound": "🧭 DNS_OUT" },
       { "rule_set": "geosite-category-ads-all", "outbound": "🚫 ADBLOCK" },
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
