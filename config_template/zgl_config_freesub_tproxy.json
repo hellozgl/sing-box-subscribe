@@ -31,7 +31,7 @@
     "strategy": "ipv4_only"
   },
   "inbounds": [
-    { "tag": "TPROXY-IN", "type": "tproxy", "listen": "0.0.0.0", "listen_port": 7895, "sniff": true, "sniff_override_destination": false },
+    { "tag": "💡 TPROXY-IN", "type": "tproxy", "listen": "0.0.0.0", "listen_port": 7895, "sniff": true, "sniff_override_destination": false },
     { "tag": "🚆 MIXED-IN", "type": "mixed", "listen": "127.0.0.1", "listen_port": 2080, "sniff": true, "users": [] }
   ],
   "outbounds": [
