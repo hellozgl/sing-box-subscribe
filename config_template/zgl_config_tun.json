@@ -41,7 +41,7 @@
     { "tag": "🌟 EMBY", "type": "selector", "outbounds": [ "🎯 节点选择", "📌 手动切换", "🛠️ 备用节点", "DIRECT" ], "default": "DIRECT" },
     { "tag": "🤖 OPENAI", "type": "selector", "outbounds": [ "🎯 节点选择", "📌 手动切换", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🛠️ 备用节点" ], "default": "🎯 节点选择" },
     { "tag": "🌐 GOOGLE", "type": "selector", "outbounds": [ "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🛠️ 备用节点" ], "default": "🎯 节点选择" },
-    { "tag": "📡 TELEGRAM", "type": "selector", "outbounds": [ "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🛠️ 备用节点" ], "default": "🎯 节点选择" },
+    { "tag": "📡 TELEGRAM", "type": "selector", "outbounds": [ "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🛠️ 备用节点" ], "default": "🇭🇰 香港节点" },
     { "tag": "💡 TWITTER", "type": "selector", "outbounds": [ "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🛠️ 备用节点" ], "default": "🎯 节点选择" },
     { "tag": "📟 FACEBOOK", "type": "selector", "outbounds": [ "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🛠️ 备用节点" ], "default": "🎯 节点选择" },
     { "tag": "🍻 BLIIBLII", "type": "selector", "outbounds": [ "DIRECT", "🇭🇰 香港节点", "🇹🇼 台湾节点" ], "default": "DIRECT" },
