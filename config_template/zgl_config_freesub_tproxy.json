@@ -55,7 +55,6 @@
     { "tag": "🎬 STREAMING", "type": "selector", "outbounds": [ "🎯 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇸🇬 狮城节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🕸 其他节点", "🛠️ 备用节点" ], "default": "🎯 节点选择" },
     { "tag": "🚫 ADBLOCK", "type": "selector", "outbounds": [ "⛔️ BLOCK", "DIRECT" ], "default": "⛔️ BLOCK" },
     { "tag": "🇨🇳 CHINA", "type": "selector", "outbounds": [ "DIRECT", "🎯 节点选择" ], "default": "DIRECT" },
-    { "tag": "type": "selector", "outbounds": [ "{all}" ], "filter":[ {"action":"include","keywords":["CF"]} ] },
     { "tag": "🇭🇰 香港节点", "type":"selector", "outbounds": [ "{all}" ], "filter":[ {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]} ] },
     { "tag": "🇹🇼 台湾节点", "type":"selector", "outbounds": [ "{all}" ], "filter":[ {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]} ] },
     { "tag": "🇸🇬 狮城节点", "type":"selector", "outbounds": [ "{all}" ], "filter":[ {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]} ] },
