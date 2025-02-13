@@ -19,7 +19,7 @@
       { "tag": "🧭 DNS_BLOCK", "address": "rcode://success" }
     ],
     "rules": [
-      { "domain_suffix": [ "gh.hellozgl.us.kg", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "server": "🧭 DNS_LOCAL" },
+      { "domain_suffix": [ "gh.hellozgl.us.kg", "ghfast.top", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "server": "🧭 DNS_LOCAL" },
       { "rule_set": "geosite-category-ads-all", "server": "🧭 DNS_BLOCK" },
       { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
       { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
