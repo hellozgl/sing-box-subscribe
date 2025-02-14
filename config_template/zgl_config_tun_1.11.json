@@ -84,7 +84,7 @@
       { "rule_set": "zglauto", "outbound": "🎯 节点选择" },
       { "rule_set": "zglmanual", "outbound": "📌 手动切换" },
       { "rule_set": "zgldirect", "outbound": "DIRECT" },
-      { "rule_set": "zglreject", "action": "reject", "method": "drop" } },
+      { "rule_set": "zglreject", "action": "reject", "method": "drop" },
       { "rule_set": "geosite-openai", "outbound": "🤖 OPENAI" },
       { "rule_set": [ "geosite-youtube", "geoip-google", "geosite-google", "geosite-github" ], "outbound": "🌐 GOOGLE" },
       { "rule_set": [ "geoip-telegram", "geosite-telegram" ], "outbound": "📡 TELEGRAM" },
