@@ -21,6 +21,7 @@ g      { "tag": "🧭 DNS_GG", "address": "tls://dns.google", "address_resolver"
     "rules": [
       { "domain_suffix": [ "ghproxy.cn", "gh.hellozgl.us.kg", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "server": "🧭 DNS_LOCAL" },
       { "rule_set": "geosite-category-ads-all", "action": "reject", "method": "drop" },
+      { "rule_set": "geosite-gfw", "action": "route", "server": "🧭 DNS_GG" },
       { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
       { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
       { "clash_mode": "Global", "server": "🧭 DNS_GG" },
