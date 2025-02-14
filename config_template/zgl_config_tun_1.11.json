@@ -21,7 +21,7 @@
     "rules": [
       { "domain_suffix": [ "ghproxy.cn", "gh.hellozgl.us.kg", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "server": "🧭 DNS_LOCAL" },
       { "rule_set": "geosite-category-ads-all", "action": "reject", "method": "drop" },
-      { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
+      { "outbound": "any", "action": "route", "server": "🧭 DNS_LOCAL", "disable_cache": true },
       { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
       { "clash_mode": "Global", "server": "🧭 DNS_GG" },
       { "rule_set": "geosite-cn", "action": "route", "server": "🧭 DNS_LOCAL" },
