@@ -13,7 +13,7 @@
   },
   "dns": {
     "servers": [
-      { "tag": "🧭 DNS_GG", "address": "https://dns.google/dns-query", "address_resolver": "🧭 DNS_LOCAL", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
+      { "tag": "🧭 DNS_GG", "address": "tls://8.8.8.8", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
       { "tag": "🧭 DNS_CF", "address": "https://1.1.1.1/dns-query", "strategy": "ipv4_only", "detour": "🎯 节点选择" },
       { "tag": "🧭 DNS_LOCAL",  "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "DIRECT" },
       { "tag": "🧭 DNS_BLOCK", "address": "rcode://success" }
