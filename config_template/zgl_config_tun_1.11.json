@@ -25,8 +25,8 @@
       { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
       { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
       { "clash_mode": "Global", "server": "🧭 DNS_GG" },
-      { "rule_set": "geosite-cn", "server": "🧭 DNS_LOCAL" },
-      { "rule_set": "geosite-geolocation-!cn", "server": "🧭 DNS_GG" }
+      { "rule_set": "geosite-cn", "action": "route", "server": "🧭 DNS_LOCAL" },
+      { "rule_set": "geosite-geolocation-!cn", "action": "route", "server": "🧭 DNS_GG" }
     ],
     "final": "🧭 DNS_GG",
     "disable_cache": true,
