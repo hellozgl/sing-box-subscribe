@@ -23,11 +23,11 @@
       { "rule_set": "geosite-category-ads-all", "server": "🧭 DNS_BLOCK" },
       { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
       { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
-      { "clash_mode": "Global", "server": "🧭 DNS_CF" },
+      { "clash_mode": "Global", "server": "🧭 DNS_GG" },
       { "rule_set": "geosite-cn", "server": "🧭 DNS_LOCAL" },
-      { "rule_set": "geosite-geolocation-!cn", "server": "🧭 DNS_CF" }
+      { "rule_set": "geosite-geolocation-!cn", "server": "🧭 DNS_GG" }
     ],
-    "final": "🧭 DNS_CF",
+    "final": "🧭 DNS_GG",
     "strategy": "ipv4_only"
   },
   "inbounds": [
