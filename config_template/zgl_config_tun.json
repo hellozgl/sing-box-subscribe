@@ -1,5 +1,5 @@
 {
-  "log": { "disabled": false, "level": "warn", "timestamp": true },
+  "log": { "disabled": false, "level": "error", "timestamp": true },
   "experimental": {
     "clash_api": {
       "external_controller": "0.0.0.0:9090",
