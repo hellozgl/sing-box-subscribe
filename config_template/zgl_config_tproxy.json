@@ -1,5 +1,5 @@
 {
-  "log": { "disabled": false, "level": "error", "output": "sing-box.log", "timestamp": true },
+  "log": { "disabled": false, "level": "error", "timestamp": true },
   "experimental": {
     "clash_api": {
       "external_controller": "0.0.0.0:9090",
@@ -15,8 +15,7 @@
     "servers": [
       { "tag": "🧭 DNS_GG", "address": "tls://dns.google", "address_resolver": "🧭 DNS_LOCAL", "detour": "🎯 节点选择" },
       { "tag": "🧭 DNS_CF", "address": "https://1.1.1.1/dns-query", "detour": "🎯 节点选择" },
-      { "tag": "🧭 DNS_LOCAL",  "address": "223.5.5.5", "detour": "DIRECT" },
-      { "tag": "🧭 DNS_BLOCK", "address": "rcode://success" }
+      { "tag": "🧭 DNS_LOCAL",  "address": "223.5.5.5", "detour": "DIRECT" }
     ],
     "rules": [
       { "domain_suffix": [ "ghproxy.cn", "gh.hellozgl.us.kg", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "action": "route", "server": "🧭 DNS_LOCAL" },
