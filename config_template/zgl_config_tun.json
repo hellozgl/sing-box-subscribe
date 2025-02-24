@@ -19,7 +19,7 @@
     "rules": [
       { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
       { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
-      { "clash_mode": "Global", "action": "route", "server": "🧭 DNS_PROXY" },
+      { "clash_mode": "Global", "server": "🧭 DNS_PROXY" },
       { "rule_set": "geosite-cn", "action": "route", "server": "🧭 DNS_LOCAL" },
       { "rule_set": "geosite-geolocation-!cn", "action": "route", "server": "🧭 DNS_PROXY" }
     ],
