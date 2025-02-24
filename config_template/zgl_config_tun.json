@@ -71,6 +71,8 @@
       {"protocol": "dns", "action": "hijack-dns"},
       { "clash_mode": "Direct", "outbound": "DIRECT" },
       { "clash_mode": "Global", "outbound": "GLOBAL" },
+      { "rule_set": "geosite-category-ads-all", "action": "reject", "method": "drop" },
+      { "domain_suffix":[ "mesu.Apple.com", "gdmf.Apple.com", "ocsp.Apple.com", "Appldnld.Apple.com", "gg.Apple.com" ], "action": "reject", "method": "drop" },
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one" ], "outbound": "DIRECT" },
       { "rule_set": "geosite-private", "outbound": "DIRECT"},
       { "rule_set": "zglemby", "outbound": "🌟 EMBY" },
