@@ -93,7 +93,7 @@
       { "rule_set": [ "geosite-category-games", "geosite-dmm" ], "outbound": "🎮 GAMES" },
       { "rule_set": [ "geosite-hbo", "geosite-primevideo" ], "outbound": "🎬 STREAMING" },
       { "rule_set": "geosite-geolocation-!cn", "outbound": "🎯 节点选择" },
-      { "rule_set": [ "geoip-cn", "geosite-cn" ], "outbound": "🇨🇳 CHINA" }
+      { "rule_set": [ "geoip-cn", "geosite-cn" ], "outbound": "DIRECT" }
     ],
     "rule_set": [
       {
