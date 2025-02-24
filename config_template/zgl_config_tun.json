@@ -13,9 +13,9 @@
   },
   "dns": {
     "servers": [
-      { "tag": "🧭 DNS_GG", "address": "tls://dns.google", "address_resolver": "🧭 DNS_LOCAL", "detour": "🎯 节点选择" },
+      { "tag": "🧭 DNS_PROXY",  "address": "tls://8.8.8.8", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🎯 节点选择"},
       { "tag": "🧭 DNS_CF", "address": "https://1.1.1.1/dns-query", "detour": "🎯 节点选择" },
-      { "tag": "🧭 DNS_LOCAL",  "address": "223.5.5.5", "detour": "DIRECT" }
+      { "tag": "🧭 DNS_LOCAL", "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "DIRECT" }
     ],
     "rules": [
       { "domain_suffix": [ "ghproxy.cn", "gh.hellozgl.us.kg", "jsdelivr.net", "oaifree.com", "siicfl.com" ], "action": "route", "server": "🧭 DNS_LOCAL" },
