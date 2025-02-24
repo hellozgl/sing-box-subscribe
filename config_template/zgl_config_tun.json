@@ -27,7 +27,6 @@
       { "rule_set": "geosite-geolocation-!cn", "action": "route", "server": "🧭 DNS_PROXY" }
     ],
     "final": "🧭 DNS_PROXY",
-    "disable_cache": true,
     "strategy": "ipv4_only"
   },
   "inbounds": [
