@@ -300,6 +300,13 @@
         "download_detour": "DIRECT"
       },
       {
+        "tag": "geosite-private",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs",
+        "download_detour": "DIRECT"
+      },
+      {
         "tag": "zglemby",
         "type": "remote",
         "format": "source",
