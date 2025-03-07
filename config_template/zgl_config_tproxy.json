@@ -85,7 +85,7 @@
       { "rule_set": "zglreject", "action": "reject", "method": "drop" },
       { "rule_set": "geosite-openai", "outbound": "🤖 OPENAI" },
       { "rule_set": [ "geosite-youtube", "geoip-google", "geosite-google", "geosite-github" ], "outbound": "🌐 GOOGLE" },
-      { "rule_set": [ "geoip-telegram", "geosite-telegram" ], "outbound": "📡 TELEGRAM" },
+      { "rule_set": [ "geoip-telegram", "geosite-telegram", "geosite-discord" ], "outbound": "📡 TELEGRAM" },
       { "rule_set": [ "geoip-twitter", "geosite-twitter" ], "outbound": "💡 TWITTER" },
       { "rule_set": [ "geoip-facebook", "geosite-facebook" ], "outbound": "📟 FACEBOOK" },
       { "rule_set": "geosite-bilibili", "outbound": "🍻 BLIIBLII" },
@@ -155,6 +155,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
+        "download_detour": "DIRECT"
+      },
+      {
+        "tag": "geosite-discord",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://ghproxy.cn/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/discord.srs",
         "download_detour": "DIRECT"
       },
       {
