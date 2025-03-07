@@ -157,6 +157,13 @@
         "download_detour": "DIRECT"
       },
       {
+        "tag": "geosite-discord",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://ghproxy.cn/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/discord.srs",
+        "download_detour": "DIRECT"
+      },
+      {
         "tag": "geoip-twitter",
         "type": "remote",
         "format": "binary",
