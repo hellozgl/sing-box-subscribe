@@ -75,7 +75,7 @@
       { "wifi_ssid": "hoohoomimi_5G", "outbound": "DIRECT" },
       { "wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       { "domain_suffix":[ "mesu.Apple.com", "gdmf.Apple.com", "ocsp.Apple.com", "Appldnld.Apple.com", "gg.Apple.com" ], "action": "reject", "method": "drop" },
-      { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one" ], "outbound": "DIRECT" },
+      { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "10.1.19.222", "10.1.19.1" ], "outbound": "DIRECT" },
       { "rule_set": "geosite-private", "outbound": "DIRECT"},
       { "rule_set": "zglemby", "outbound": "🌟 EMBY" },
       { "rule_set": "zglauto", "outbound": "🎯 节点选择" },
