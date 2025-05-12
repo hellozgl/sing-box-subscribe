@@ -80,7 +80,7 @@
       { "wifi_ssid": "hoohoomimi", "outbound": "DIRECT" },
       { "domain_suffix":[ "mesu.Apple.com", "gdmf.Apple.com", "ocsp.Apple.com", "Appldnld.Apple.com", "gg.Apple.com" ], "action": "reject", "method": "drop" },
       { "domain": [ "clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one", "10.1.19.222", "10.1.19.1", "5.5.5.5" ], "outbound": "DIRECT" },
-      { "domain_suffix":[ "gmail.com", "smartmailcloud.com", "api.amplitude.com" ], "outbound": "✉️ EMAIL" },
+      { "domain_keyword":[ "gmail", "smartmailcloud", "amplitude" ], "outbound": "✉️ EMAIL" },
       { "rule_set": "geosite-private", "outbound": "DIRECT"},
       { "rule_set": "zglemby", "outbound": "🌟 EMBY" },
       { "rule_set": "zglauto", "outbound": "🎯 节点选择" },
