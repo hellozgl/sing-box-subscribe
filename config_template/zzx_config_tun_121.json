@@ -369,3 +369,11 @@
     ]
   }
 }
+
+原报错信息；
+[33mWARN[0m[0000] legacy DNS servers is deprecated in sing-box 1.12.0 and will be removed in sing-box 1.14.0, checkout documentation for migration: https://sing-box.sagernet.org/migration/#migrate-to-new-dns-server-formats
+[33mWARN[0m[0000] outbound DNS rule item is deprecated in sing-box 1.12.0 and will be removed in sing-box 1.14.0, checkout documentation for migration: https://sing-box.sagernet.org/migration/#migrate-outbound-dns-rule-items-to-domain-resolver
+[33mWARN[0m[0000] missing `route.default_domain_resolver` or `domain_resolver` in dial fields is deprecated in sing-box 1.12.0 and will be removed in sing-box 1.14.0, checkout documentation for migration: https://sing-box.sagernet.org/migration/#migrate-outbound-dns-rule-items-to-domain-resolver
+[33mWARN[0m[0000] legacy DNS servers is deprecated in sing-box 1.12.0 and will be removed in sing-box 1.14.0, checkout documentation for migration: https://sing-box.sagernet.org/migration/#migrate-to-new-dns-server-formats
+[33mWARN[0m[0000] outbound DNS rule item is deprecated in sing-box 1.12.0 and will be removed in sing-box 1.14.0, checkout documentation for migration: https://sing-box.sagernet.org/migration/#migrate-outbound-dns-rule-items-to-domain-resolver
+[33mWARN[0m[0000] missing `route.default_domain_resolver` or `domain_resolver` in dial fields is deprecated in sing-box 1.12.0 and will be removed in sing-box 1.14.0, checkout documentation for migration: https://sing-box.sagernet.org/migration/#migrate-outbound-dns-rule-items-to-domain-resolver
