@@ -14,7 +14,7 @@
   "dns": {
     "servers": [
       { "tag": "🧭 DNS_PROXY",  =="type": "tls", "server": "8.8.8.8",== "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "🎯 节点选择"},
-      { "tag": "🧭 DNS_LOCAL", "address": "223.5.5.5", "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "DIRECT" }
+      { "tag": "🧭 DNS_LOCAL", =="type": "udp", "server": "223.5.5.5"==, "address_strategy": "ipv4_only", "strategy": "ipv4_only", "detour": "DIRECT" }
     ],
     "rules": [
       { "outbound": "any", "server": "🧭 DNS_LOCAL", "disable_cache": true },
