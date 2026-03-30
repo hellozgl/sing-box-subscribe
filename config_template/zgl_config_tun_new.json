@@ -21,7 +21,7 @@
       { "clash_mode": "Direct", "server": "🧭 DNS_LOCAL" },
       { "clash_mode": "Global", "server": "🧭 DNS_PROXY" },
       { "rule_set": "geosite-cn", "action": "route", "server": "🧭 DNS_LOCAL" },
-      { "rule_set": "geosite-geolocation-!cn", "action": "route", "server": "🧭 DNS_PROXY" }
+      { "rule_set": "geosite-!cn", "action": "route", "server": "🧭 DNS_PROXY" }
     ],
     "final": "🧭 DNS_PROXY",
     "strategy": "ipv4_only"
